@@ -1,23 +1,21 @@
 import React from 'react';
-
-import Statistics from './components/Statistics/Statistics';
-import FriendList from './components/FriendList/FriendList';
-import Profile from './components/Profile/Profile';
-import Layout from './components/Layout/Layout';
-import TransactionHistory from './components/TransactionHistory/TransactionHistory';
-
-import user from './data/user.json';
-import statisticalData from './data/statistical-data.json';
-import friends from './data/friends.json';
-import items from './data/transactions.json';
+import { Route, Switch } from 'react-router-dom';
+import routes from './routes';
+import MainPage from './pages/MainPage';
+import Homework1 from './pages/Homework1';
+import Homework2Fonebook from './pages/Homework2Fonebook';
+import Homework2Feedback from './pages/Homework2Feedback';
 
 const App = () => (
-  <Layout>
-    <Profile user={user} />
-    <Statistics title="Upload stats" stats={statisticalData} />
-    <FriendList friends={friends} />
-    <TransactionHistory items={items} />
-  </Layout>
+  <>
+    <Switch>
+      <Route exact path={routes.main} component={MainPage} />;
+      <Route path={routes.homework1} component={Homework1} />;
+      <Route path={routes.homework2_1} component={Homework2Fonebook} />;
+      <Route path={routes.homework2_2} component={Homework2Feedback} />;
+      <Route component={MainPage} />
+    </Switch>
+  </>
 );
 
 export default App;

@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import defaultAvatar from '../../defaultAvatar.svg';
+import defaultAvatar from '../../../defaultAvatar.svg';
 import style from './FriendItem.module.css';
 
 const FriendItem = ({ friendInfo: { avatar, name, isOnline } }) => (

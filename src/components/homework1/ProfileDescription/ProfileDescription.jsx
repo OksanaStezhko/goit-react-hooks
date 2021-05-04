@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import style from './ProfileDescription.module.css';
-import defaultAvatar from '../../defaultAvatar.svg';
+import defaultAvatar from '../../../defaultAvatar.svg';
 
 const Description = ({ avatar, name, tag, location }) => (
   <div className={style.description}>
