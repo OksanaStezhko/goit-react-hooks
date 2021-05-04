@@ -1,0 +1,19 @@
+.item {
+  display: block;
+
+  width: 80px;
+}
+
+.label {
+  composes: item;
+  display: block;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.percentage {
+  composes: item;
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+}

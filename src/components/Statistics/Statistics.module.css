@@ -1,0 +1,13 @@
+.container {
+  width: 400px;
+  height: auto;
+  margin: 30px auto;
+  background-color: #fff;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}

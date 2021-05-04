@@ -1,0 +1,24 @@
+.item {
+  width: calc(100% / 3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+
+  background-color: rgb(223, 228, 235);
+  color: rgb(98, 103, 107);
+}
+
+.item {
+  border: 1px solid rgb(151, 161, 173);
+}
+.label {
+  margin: 0 0 10px;
+  text-transform: capitalize;
+  font-size: small;
+}
+
+.quantity {
+  font-weight: 500;
+  color: black;
+}

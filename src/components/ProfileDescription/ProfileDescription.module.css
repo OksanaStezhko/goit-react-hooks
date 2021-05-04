@@ -1,0 +1,30 @@
+.description {
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+.avatar {
+  width: 200;
+  height: 200px;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(151, 161, 173);
+  margin-left: auto;
+  margin-right: auto;
+
+  background-color: rgb(255, 255, 255);
+}
+
+.name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tag {
+  color: rgb(98, 103, 107);
+}
+
+.location {
+  color: rgb(98, 103, 107);
+}
